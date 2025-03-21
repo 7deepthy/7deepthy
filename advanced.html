@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Encoding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Advanced Encoding & Decoding</h2>
+        <textarea id="input" placeholder="Enter your text here..."></textarea>
+        <div class="buttons">
+            <button class="btn" onclick="convert('encode', 'uri')">URL Encode</button>
+            <button class="btn" onclick="convert('decode', 'uri')">URL Decode</button>
+            <button class="btn" onclick="convert('encode', 'base64')">Base64 Encode</button>
+            <button class="btn" onclick="convert('decode', 'base64')">Base64 Decode</button>
+            <button class="btn" onclick="convert('encode', 'html')">HTML Entity Encode</button>
+            <button class="btn" onclick="convert('decode', 'html')">HTML Entity Decode</button>
+            <button class="btn" onclick="convert('encode', 'unicode')">Unicode Escape</button>
+            <button class="btn" onclick="convert('decode', 'unicode')">Unicode Unescape</button>
+            <button class="btn" onclick="convert('encode', 'hex')">Hex Encode</button>
+            <button class="btn" onclick="convert('decode', 'hex')">Hex Decode</button>
+            <button class="btn" onclick="convert('encode', 'binary')">Binary Encode</button>
+            <button class="btn" onclick="convert('decode', 'binary')">Binary Decode</button>
+        </div>
+        <textarea id="output" readonly placeholder="Output will appear here..."></textarea>
+        <a href="index.html" class="btn link-btn">Back to Encrypt & Decrypt</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

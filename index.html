@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EncrypterDecrypterApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Encrypter & Decrypter</h2>
+        <textarea id="message" placeholder="Enter your text here..."></textarea>
+        <input type="text" id="key" placeholder="Enter key">
+        <div class="buttons">
+            <button class="btn" onclick="encryptMessage()">Encrypt</button>
+            <button class="btn" onclick="decryptMessage()">Decrypt</button>
+        </div>
+        <textarea id="output" readonly placeholder="Output will appear here..."></textarea>
+        <a href="advanced.html" class="btn link-btn">Go to Advanced Encoding</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

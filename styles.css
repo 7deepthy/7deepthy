@@ -1,0 +1,79 @@
+/* General Styles */
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    text-align: center;
+    padding: 40px;
+    color: #333;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+}
+
+h2 {
+    color: #f2042b;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #ff758c;
+    margin-bottom: 15px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+/* Button Styles */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    background: #ff758c;
+    color: white;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    margin: 5px;
+}
+
+.btn:hover {
+    background: #e8436c;
+}
+
+.link-btn {
+    display: block;
+    margin-top: 20px;
+    background:  #ca0122;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.link-btn:hover {
+    background:  #ca0122;
+}
+
+/* Align buttons in second page */
+.advanced-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
